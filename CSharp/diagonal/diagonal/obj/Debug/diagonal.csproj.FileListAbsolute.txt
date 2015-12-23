@@ -1,0 +1,6 @@
+C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\bin\Debug\diagonal.exe.config
+C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\bin\Debug\diagonal.exe
+C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\bin\Debug\diagonal.pdb
+C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\obj\Debug\diagonal.csprojResolveAssemblyReference.cache
+C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\obj\Debug\diagonal.exe
+C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\obj\Debug\diagonal.pdb

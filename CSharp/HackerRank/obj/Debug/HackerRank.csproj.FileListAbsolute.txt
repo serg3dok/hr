@@ -1,0 +1,12 @@
+D:\GoogleDrive\HackerRank\HackerRank\HackerRank\bin\Debug\HackerRank.exe.config
+D:\GoogleDrive\HackerRank\HackerRank\HackerRank\bin\Debug\HackerRank.exe
+D:\GoogleDrive\HackerRank\HackerRank\HackerRank\bin\Debug\HackerRank.pdb
+D:\GoogleDrive\HackerRank\HackerRank\HackerRank\obj\Debug\HackerRank.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\HackerRank\HackerRank\HackerRank\obj\Debug\HackerRank.exe
+D:\GoogleDrive\HackerRank\HackerRank\HackerRank\obj\Debug\HackerRank.pdb
+C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\bin\Debug\HackerRank.exe.config
+C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\obj\Debug\HackerRank.exe
+C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\obj\Debug\HackerRank.pdb
+C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\bin\Debug\HackerRank.exe
+C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\bin\Debug\HackerRank.pdb
+C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\obj\Debug\HackerRank.csprojResolveAssemblyReference.cache
