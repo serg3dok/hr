@@ -1,5 +1,6 @@
 package String;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -22,23 +23,22 @@ public class JavaAnagrams {
         else return false;
         return true;
     }
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String A=sc.next();
         String B=sc.next();
         boolean ret=isAnagram(A,B);
         if(ret)System.out.println("Anagrams");
         else System.out.println("Not Anagrams");
-
     }
+
     static String sort(String input)
     {
-        char[] charArr = input.toCharArray();
+        char[] charArr = input.toLowerCase().toCharArray();
         char tmp;
         for (int i = 0; i < input.length()-1; i++)
         {
-
             if (Character.valueOf(charArr[i]) > Character.valueOf(charArr[i+1]))
             {
                 tmp = charArr[i];
