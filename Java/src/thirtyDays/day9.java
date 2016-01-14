@@ -18,17 +18,13 @@ public class day9 {
     static  int find_gcd(int a,int b) {
         //Write the base condition
 
-        {
+//          return find_gcd(b,a%b);
             if (a > b) {
-                return find_gcd(a - 1, b);
-            } else if (b < a) {
-                return find_gcd(b - 1, a);
+                return find_gcd(a - b, b);
+            } else if (a < b) {
+                return find_gcd(b - a, a);
             }
-
             return a;
-
-
-        }
     }
 
 
