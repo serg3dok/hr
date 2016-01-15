@@ -20,51 +20,18 @@ public class day10 {
 
 
     }
-    static String toBinary(int x) {
+    static String toBinary(int num) {
         //return Integer.toBinaryString(x); // Integer method
-        int binaryResult = 0;
-        while(x > 0)
-        {
-            if (binaryResult%10 == 0) {
-                binaryResult++;
-                x-- ;
-            }
-
-            else if (binaryResult%10 != 0 && binaryResult == 1){
-                binaryResult += 9;
-                x--;
-            }
-
-//            else if(binaryResult > 100 && binaryResult%10 != 0)
-//            {
-//                binaryResult += 10;
-//            }
-
-            if (binaryResult > 10 && !String.valueOf(binaryResult).contains("0"))
-            {
-                //binaryResult += 89;
-                String n = "1";
-                int l = Integer.toString(binaryResult).length();
-                for (int i = 0; i < l; i++)
-                {
-                    n = n + "0";
-                }
-                //n = n + "0";
-                binaryResult = Integer.valueOf(n);
-
-                x--;
-            }
-
-
+        String last = "";
+        while (num > 0) {
+            int mod = num % 2;
+            num = num / 2;
+            String binary = Integer.toString(mod);
+            last = mod + last;
         }
 
-        return String.valueOf(binaryResult);
-
-
-
+        return last;
     }
-
-
 
 
 }
