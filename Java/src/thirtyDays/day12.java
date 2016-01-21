@@ -1,14 +1,7 @@
 package thirtyDays;
 
-<<<<<<< HEAD
 import java.util.Scanner;
-=======
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
->>>>>>> origin/master
+
 
 class Student{
     protected String firstName;
