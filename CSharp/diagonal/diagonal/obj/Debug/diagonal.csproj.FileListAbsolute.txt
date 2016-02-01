@@ -4,3 +4,9 @@ C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\bin\Debug\d
 C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\obj\Debug\diagonal.csprojResolveAssemblyReference.cache
 C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\obj\Debug\diagonal.exe
 C:\Users\sergeyo\Serg Drive\HackerRank\diagonal\CS\diagonal\diagonal\obj\Debug\diagonal.pdb
+C:\Users\sergeyo\Google Drive\hr\CSharp\diagonal\diagonal\bin\Debug\diagonal.exe.config
+C:\Users\sergeyo\Google Drive\hr\CSharp\diagonal\diagonal\bin\Debug\diagonal.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\diagonal\diagonal\bin\Debug\diagonal.pdb
+C:\Users\sergeyo\Google Drive\hr\CSharp\diagonal\diagonal\obj\Debug\diagonal.csprojResolveAssemblyReference.cache
+C:\Users\sergeyo\Google Drive\hr\CSharp\diagonal\diagonal\obj\Debug\diagonal.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\diagonal\diagonal\obj\Debug\diagonal.pdb

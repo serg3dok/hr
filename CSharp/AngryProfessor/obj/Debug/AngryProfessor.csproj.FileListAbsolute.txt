@@ -4,3 +4,9 @@ C:\Users\sergeyo\Google Drive\HackerRank\CSharp\AngryProfessor\bin\Debug\AngryPr
 C:\Users\sergeyo\Google Drive\HackerRank\CSharp\AngryProfessor\obj\Debug\AngryProfessor.exe
 C:\Users\sergeyo\Google Drive\HackerRank\CSharp\AngryProfessor\obj\Debug\AngryProfessor.pdb
 C:\Users\sergeyo\Google Drive\HackerRank\CSharp\AngryProfessor\obj\Debug\AngryProfessor.csprojResolveAssemblyReference.cache
+C:\Users\sergeyo\Google Drive\hr\CSharp\AngryProfessor\bin\Debug\AngryProfessor.exe.config
+C:\Users\sergeyo\Google Drive\hr\CSharp\AngryProfessor\obj\Debug\AngryProfessor.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\AngryProfessor\obj\Debug\AngryProfessor.pdb
+C:\Users\sergeyo\Google Drive\hr\CSharp\AngryProfessor\bin\Debug\AngryProfessor.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\AngryProfessor\bin\Debug\AngryProfessor.pdb
+C:\Users\sergeyo\Google Drive\hr\CSharp\AngryProfessor\obj\Debug\AngryProfessor.csprojResolveAssemblyReference.cache

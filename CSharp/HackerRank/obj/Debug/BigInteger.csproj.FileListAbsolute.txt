@@ -1,6 +1,0 @@
-C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\bin\Debug\HackerRank.exe.config
-C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\bin\Debug\HackerRank.exe
-C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\bin\Debug\HackerRank.pdb
-C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\obj\Debug\BigInteger.csprojResolveAssemblyReference.cache
-C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\obj\Debug\HackerRank.exe
-C:\Users\sergeyo\Google Drive\HackerRank\CSharp\HackerRank\obj\Debug\HackerRank.pdb
