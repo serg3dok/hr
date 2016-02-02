@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays-DS", "Arrays-DS\Arrays-DS.csproj", "{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DArray-DS", "2DArray-DS\2DArray-DS.csproj", "{FA769724-B672-4492-A37A-2BF7208AA3AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,11 +36,16 @@ Global
 		{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA769724-B672-4492-A37A-2BF7208AA3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA769724-B672-4492-A37A-2BF7208AA3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA769724-B672-4492-A37A-2BF7208AA3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA769724-B672-4492-A37A-2BF7208AA3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E} = {EF38AF7F-04C4-4128-B84A-811FF926DBC4}
+		{FA769724-B672-4492-A37A-2BF7208AA3AB} = {EF38AF7F-04C4-4128-B84A-811FF926DBC4}
 	EndGlobalSection
 EndGlobal
