@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		BigInteger\BigInteger.csproj = BigInteger\BigInteger.csproj
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{EF38AF7F-04C4-4128-B84A-811FF926DBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays-DS", "Arrays-DS\Arrays-DS.csproj", "{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,8 +30,15 @@ Global
 		{DF820337-1CD8-48D2-AA91-98DA6D42B1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF820337-1CD8-48D2-AA91-98DA6D42B1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF820337-1CD8-48D2-AA91-98DA6D42B1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC17F08B-8B56-47C0-BCDE-554D88FB9F8E} = {EF38AF7F-04C4-4128-B84A-811FF926DBC4}
 	EndGlobalSection
 EndGlobal
