@@ -29,9 +29,9 @@ public class TimeConversion {
 		
 		int hours24 = 0;
 		
-		int hours12 = Integer.valueOf(timeString[0]);
-		int minutes = Integer.valueOf(timeString[1]);
-		int seconds = Integer.valueOf(timeString[2].subSequence(0, 2).toString());
+//		int hours12 = Integer.valueOf(timeString[0]);
+//		int minutes = Integer.valueOf(timeString[1]);
+//		int seconds = Integer.valueOf(timeString[2].subSequence(0, 2).toString());
 		
 		
 						
@@ -47,14 +47,14 @@ public class TimeConversion {
 		
 		if (ampm.equals("PM") || ampm.equalsIgnoreCase("pm"))
 		{
-			if (hours12 != 12)
-			{
-				hours24 = hours12 + 12;
-			}
+//			if (hours12 != 12)
+//			{
+//				hours24 = hours12 + 12;
+//			}
 		}
 		
 //		System.out.format(hours24 + ":" + minutes + ":" + seconds);
-		System.out.printf("%02d:%02d:%02d", hours24, minutes, seconds);	
+//		System.out.printf("%02d:%02d:%02d", hours24, minutes, seconds);
 	}
 
 }
