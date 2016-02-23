@@ -16,12 +16,31 @@ class JavaBigDecimal{
             s[i]=sc.next();
         }
 
-        BigDecimal[] result = new BigDecimal[n];
 
-        //Write your code here
-        for (int i = 0; i < n; i++) {
-            result[i].equals(s[i]);
+
+        // Write your code here
+        
+        //Create array of BigDecimals
+        BigDecimal[] arrIn = new BigDecimal[n];                
+        for (int i = 0; i < n; i++) {            
+            arrIn[i] = new BigDecimal(s[i]);
         }
+        
+        // Sort in loops
+        for (int i = 0; i < n; i++) {
+            for (int j = 1; j < i; j++) {
+
+                if (arrIn[i].compareTo(arrIn[j]) < 0)
+                {
+                    BigDecimal tmp = (arrIn[i]);
+                    arrIn[i] = arrIn[j];
+                    arrIn[j] = tmp;
+                }
+            }
+            
+        }
+        
+        
 
 
 
@@ -32,6 +51,8 @@ class JavaBigDecimal{
         }
 
     }
+    
+    
 
 
 }
