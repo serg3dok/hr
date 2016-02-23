@@ -1,5 +1,3 @@
-package com.tutorialspoint;
-
 //import org.springframework.context.ApplicationContext;
 //import org.springframework.context.support.ClassPathXmlApplicationContext;
 

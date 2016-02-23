@@ -1,5 +1,3 @@
-package com.home.serg3d;
-
 import java.util.Scanner;
 
 /**

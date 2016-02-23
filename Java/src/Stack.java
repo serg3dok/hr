@@ -1,5 +1,3 @@
-package com.home.serg3d;
-
 /**
  * Created by Sergey on 12/4/2015.
  */

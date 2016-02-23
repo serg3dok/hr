@@ -1,5 +1,3 @@
-package com.home.serg3d;
-
 public class Replacer {
 
     public static void main(String[] args) {
