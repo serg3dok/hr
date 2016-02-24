@@ -16,33 +16,27 @@ class JavaBigDecimal{
             s[i]=sc.next();
         }
 
-
-
         // Write your code here
-        
-        //Create array of BigDecimals
-        BigDecimal[] arrIn = new BigDecimal[n];                
-        for (int i = 0; i < n; i++) {            
-            arrIn[i] = new BigDecimal(s[i]);
-        }
-        
-        // Sort in loops
+
         for (int i = 0; i < n; i++) {
-            for (int j = 1; j < i; j++) {
+            for (int j = i+1; j < n; j++) {
 
-                if (arrIn[i].compareTo(arrIn[j]) < 0)
-                {
-                    BigDecimal tmp = (arrIn[i]);
-                    arrIn[i] = arrIn[j];
-                    arrIn[j] = tmp;
+                BigDecimal a = new BigDecimal(s[i]);
+                BigDecimal b = new BigDecimal(s[j]);
+
+                if (a.compareTo(b) == 0)  {
+                    continue;
                 }
+
+                if (a.compareTo(b) < 0 )
+                {
+                    String tmp = s[i];
+                    s[i] = s[j];
+                    s[j] = tmp;
+                }
+
             }
-            
         }
-        
-        
-
-
 
         //Output
         for(int i=0;i<n;i++)
@@ -51,8 +45,5 @@ class JavaBigDecimal{
         }
 
     }
-    
-    
-
 
 }
