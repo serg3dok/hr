@@ -19,22 +19,17 @@ class JavaBigDecimal{
         // Write your code here
 
         for (int i = 0; i < n; i++) {
-            for (int j = i+1; j < n; j++) {
+            for (int j = 0; j < n - 1; j++) {
 
-                BigDecimal a = new BigDecimal(s[i]);
-                BigDecimal b = new BigDecimal(s[j]);
 
-                if (a.compareTo(b) == 0)  {
-                    continue;
+                BigDecimal a = new BigDecimal(s[j]);
+                BigDecimal b = new BigDecimal(s[j + 1]);
+
+                if (a.compareTo(b) < 0) {
+                    String tmp = s[j];
+                    s[j] = s[j + 1];
+                    s[j + 1] = tmp;
                 }
-
-                if (a.compareTo(b) < 0 )
-                {
-                    String tmp = s[i];
-                    s[i] = s[j];
-                    s[j] = tmp;
-                }
-
             }
         }
 
