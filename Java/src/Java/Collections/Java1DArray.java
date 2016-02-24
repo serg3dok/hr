@@ -23,13 +23,14 @@ public class Java1DArray {
         for (int i = 0; i < n; i++) {
             int sum = numbers[i];
             if (sum < 0) result += 1;
-            for (int j = i+1; j < n - 1; j++) {
+            for (int j = i+1; j < n; j++) {
                 int nextNum = numbers[j];
-                if (sum + nextNum <= 0) {
-                    sum = sum + nextNum;
+                if (sum + nextNum < 0) {
+
                     result = result + 1;
                 }
 
+                sum = sum + nextNum;
             }
         }
 
