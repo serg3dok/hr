@@ -9,26 +9,23 @@ public class JavaStack {
     private ArrayList<String> Stack;
 
 
-    JavaStack() {
-        Stack = new ArrayList<String>();
+    JavaStack(int size) {
+
+        Stack = new Node();
     }
 
 
     public static void main(String []argh)
     {
-        Stack MyStack = new Stack
+
 
         Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
 
-
-        while (sc.hasNext()) {
-            String input=sc.next();
-            //Complete the code
-
+        JavaStack MyStack = new JavaStack(input.length());
 
 
 
-        }
 
     }
 
