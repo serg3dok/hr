@@ -3,15 +3,19 @@ package Java.Collections;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Stack;
 
 
 public class JavaStack {
-    private ArrayList<String> Stack;
 
 
-    JavaStack(int size) {
+    public Node stack;
 
-        Stack = new Node();
+    JavaStack(char c, Node node) {
+        stack.head = node;
+        stack.data = c;
+        stack.next = null;
+        stack.prev = null;
     }
 
 
@@ -21,10 +25,17 @@ public class JavaStack {
 
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
+        char[] arrChar = input.toCharArray();
 
-        JavaStack MyStack = new JavaStack(input.length());
+        Node head = new Node();
+        //stack myStack = new JavaStack(arrChar[0], head);
 
 
+//        for (char a : arrChar) {
+//            if (stack.isEmpty()) {
+//
+//            }
+//        }
 
 
     }
@@ -34,17 +45,16 @@ public class JavaStack {
     }
 
     public int pop() {
-        String r =
 
-        return
+        return 0;
 
     }
     public void peek() {
 
     }
 
-    public void isEmpty() {
-
+    public boolean isEmpty() {
+        return false;
     }
 
     public void isFull()  {

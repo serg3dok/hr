@@ -1,19 +1,26 @@
 package Java.Collections;
 
+import java.util.Objects;
+
 /**
  * Created by sergeyo on 3/4/2016.
  */
-public class Node extends java.util.ArrayList<String> {
+public class Node {
+    Node head;
     Node next;
     Node prev;
     Object data;
 
     //Constructor
-    Node (Object dataValue) {
+    public Node (Object dataValue, Node head) {
         data = dataValue;
         next = null;
         prev = null;
+        this.head = head;
     }
+
+    public Node() { }
+
 
     // return data
     public Object getData() { return data; }
@@ -27,5 +34,14 @@ public class Node extends java.util.ArrayList<String> {
     // set data
     public void setData(Object dataValue) { data = dataValue; }
 
-
+    // add Node
+    public void addNode(Object dataValue, Node current) {
+        if (current == null) {
+            current = new Node(dataValue, current);
+        }
+        else {
+            current = current.next;
+            setData(dataValue);
+        }
+    }
 }
