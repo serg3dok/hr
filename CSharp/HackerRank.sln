@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryProfessor", "AngryProfessor\AngryProfessor.csproj", "{76E4CCEF-3E06-4685-B221-1F62B70D55A5}"
 EndProject
@@ -21,6 +21,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArray", "DynamicArray\DynamicArray.csproj", "{378941AA-B91D-411E-AF3E-1C09DAB69B3F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparseArrays", "SparseArrays\SparseArrays.csproj", "{DE259BFF-BA7E-4FDA-ACB0-8887F6FE7451}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sandBox", "sandBox", "{48C1D926-3790-46FF-88BE-EA70EA375AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sandBox", "sandBox\sandBox.csproj", "{EABE1B4E-EEC7-45FD-8574-97E683490C60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mathematics", "Mathematics", "{B3AD1972-E0DC-4A74-A80A-C9CB649AE1F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fundamentals", "Fundamentals", "{7D9BE41F-B6FC-4E47-B356-C8C372849623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGame", "ReverseGame\ReverseGame.csproj", "{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +62,14 @@ Global
 		{DE259BFF-BA7E-4FDA-ACB0-8887F6FE7451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE259BFF-BA7E-4FDA-ACB0-8887F6FE7451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE259BFF-BA7E-4FDA-ACB0-8887F6FE7451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EABE1B4E-EEC7-45FD-8574-97E683490C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABE1B4E-EEC7-45FD-8574-97E683490C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EABE1B4E-EEC7-45FD-8574-97E683490C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABE1B4E-EEC7-45FD-8574-97E683490C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,5 +79,8 @@ Global
 		{FA769724-B672-4492-A37A-2BF7208AA3AB} = {EF38AF7F-04C4-4128-B84A-811FF926DBC4}
 		{378941AA-B91D-411E-AF3E-1C09DAB69B3F} = {EF38AF7F-04C4-4128-B84A-811FF926DBC4}
 		{DE259BFF-BA7E-4FDA-ACB0-8887F6FE7451} = {EF38AF7F-04C4-4128-B84A-811FF926DBC4}
+		{EABE1B4E-EEC7-45FD-8574-97E683490C60} = {48C1D926-3790-46FF-88BE-EA70EA375AA4}
+		{7D9BE41F-B6FC-4E47-B356-C8C372849623} = {B3AD1972-E0DC-4A74-A80A-C9CB649AE1F3}
+		{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4} = {7D9BE41F-B6FC-4E47-B356-C8C372849623}
 	EndGlobalSection
 EndGlobal

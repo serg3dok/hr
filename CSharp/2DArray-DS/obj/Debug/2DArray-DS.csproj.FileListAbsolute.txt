@@ -1,0 +1,5 @@
+C:\Users\sergeyo\Google Drive\hr\CSharp\2DArray-DS\bin\Debug\2DArray-DS.exe.config
+C:\Users\sergeyo\Google Drive\hr\CSharp\2DArray-DS\bin\Debug\2DArray-DS.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\2DArray-DS\bin\Debug\2DArray-DS.pdb
+C:\Users\sergeyo\Google Drive\hr\CSharp\2DArray-DS\obj\Debug\2DArray-DS.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\2DArray-DS\obj\Debug\2DArray-DS.pdb

@@ -1,0 +1,6 @@
+C:\Users\sergeyo\Google Drive\hr\CSharp\sandBox\bin\Debug\sandBox.exe.config
+C:\Users\sergeyo\Google Drive\hr\CSharp\sandBox\bin\Debug\sandBox.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\sandBox\bin\Debug\sandBox.pdb
+C:\Users\sergeyo\Google Drive\hr\CSharp\sandBox\obj\Debug\sandBox.csprojResolveAssemblyReference.cache
+C:\Users\sergeyo\Google Drive\hr\CSharp\sandBox\obj\Debug\sandBox.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\sandBox\obj\Debug\sandBox.pdb

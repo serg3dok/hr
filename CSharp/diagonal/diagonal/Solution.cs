@@ -10,7 +10,7 @@ class Solution
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
         int diag1 = 0;
         int diag2 = 0;
-        int t = Convert.ToInt32(Console.ReadLine());
+        int t = Convert.ToInt32(Console.ReadLine());  //testcases
         int d2 = t-1;
         for (int i = 0; i < t; i++)
         {

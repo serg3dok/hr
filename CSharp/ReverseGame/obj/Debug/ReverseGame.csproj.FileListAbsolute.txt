@@ -1,0 +1,6 @@
+C:\Users\sergeyo\Google Drive\hr\CSharp\ReverseGame\bin\Debug\ReverseGame.exe.config
+C:\Users\sergeyo\Google Drive\hr\CSharp\ReverseGame\obj\Debug\ReverseGame.csprojResolveAssemblyReference.cache
+C:\Users\sergeyo\Google Drive\hr\CSharp\ReverseGame\bin\Debug\ReverseGame.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\ReverseGame\bin\Debug\ReverseGame.pdb
+C:\Users\sergeyo\Google Drive\hr\CSharp\ReverseGame\obj\Debug\ReverseGame.exe
+C:\Users\sergeyo\Google Drive\hr\CSharp\ReverseGame\obj\Debug\ReverseGame.pdb

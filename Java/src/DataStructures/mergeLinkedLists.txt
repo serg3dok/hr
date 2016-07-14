@@ -1,0 +1,25 @@
+    Node current = headA; 
+    Node head = headA;
+    int i = 0;
+    while (headA != null && headB != null) { 
+        
+        while (headA.data < headB.data || (headA != null && headB == null)) {
+            current.data = headA.data;
+            System.out.println(current.data);
+            if (i == 0) head = current;
+            System.out.println("head: " + current.data);
+            current = current.next;
+            headA = headA.next;
+
+        }
+        while (headB.data < headA.data || (headB != null && headA == null)) {
+            current.data = headB.data;
+            System.out.println(current.data);
+            if (i == 0) head = current;
+            current = current.next;
+            headB = headB.next;
+        }
+        i++;
+    }    
+    
+    return head; 

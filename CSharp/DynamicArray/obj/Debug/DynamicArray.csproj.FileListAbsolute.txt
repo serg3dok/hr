@@ -1,0 +1,1 @@
+C:\Users\sergeyo\Google Drive\hr\CSharp\DynamicArray\obj\Debug\DynamicArray.csprojResolveAssemblyReference.cache
