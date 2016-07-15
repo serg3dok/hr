@@ -1,10 +1,9 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+package JavaCore;
+
+import java.util.Scanner;
 
 class Solution{
+
    public static void main(String[] args){
 
       Scanner in = new Scanner(System.in);
