@@ -1,8 +1,6 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+package WeekOfCode21;
+
+import java.util.Scanner;
 
 public class Kangaroo1 {
 
