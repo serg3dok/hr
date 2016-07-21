@@ -37,7 +37,10 @@ public class TheMaximumSubArray2 {
                 else {
                     if (maxCon > maxConAbs) {
                         maxConAbs = maxCon;
-                        maxCon = 0;
+                        if (arr[i] > 0) {
+                            maxCon = arr[i];
+                        }
+
                     }
                 }
             }
@@ -57,7 +60,10 @@ public class TheMaximumSubArray2 {
                 }
             }
             while (++i < n) {
-                if (arr[i] < 0) continue;
+                if (arr[i] < 0) {
+
+                    continue;
+                }
                 else {
                     if (arr[i] - prev == 1 || arr[i] + prev == 1 || arr[i] == prev) {
                         maxNotCon += arr[i];
@@ -75,9 +81,7 @@ public class TheMaximumSubArray2 {
                 maxNotConAbs = maxNotCon;
             }
 
-
             System.out.println(maxConAbs + " " + maxNotConAbs);
         }
     }
-
 }
