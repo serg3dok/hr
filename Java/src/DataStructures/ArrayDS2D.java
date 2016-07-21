@@ -1,7 +1,8 @@
-import java.io.*;
-import java.util.*;
+package DataStructures;
 
-public class Solution {
+import java.util.Scanner;
+
+public class ArrayDS2D {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
