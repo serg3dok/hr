@@ -37,7 +37,10 @@ public class TheMaximumSubArray2 {
                 else {
                     if (maxCon > maxConAbs) {
                         maxConAbs = maxCon;
-                        maxCon = 0;
+                        if (arr[i] > 0) {
+                            maxCon = arr[i];
+                        }
+
                     }
                 }
             }
