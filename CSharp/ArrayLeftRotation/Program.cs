@@ -12,7 +12,7 @@ namespace ArrayLeftRotation
         {
             int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-            int[] rotated = rotateArray(numbers, 9, 6); //pass array, size of array, number of rotations
+            int[] rotated = rotateArray(numbers, 5); //pass array, number of rotations
 
             foreach (var number in rotated)
             {
@@ -23,7 +23,9 @@ namespace ArrayLeftRotation
 
         }
 
-        // 1 2 3 4 5 6 7 8 9
+        // move all elements of array to the left
+
+        // 1 2 3 4 5 6 7 8 9 -> 6 7 8 9 1 2 3 4 5
 
         //         i static
         //         V V  <-     pointers
@@ -33,17 +35,19 @@ namespace ArrayLeftRotation
 
 
 
-        public static int[] rotateArray(int[] numbers, int size, int rotations)
+        public static int[] rotateArray(int[] numbers, int rotations)
         {
+            int size = numbers.Length;
+
             for (int i = 0; i < rotations; i++)
             {
                 int tmp = numbers[i];
                 numbers[i] = numbers[rotations];
-                Console.Write("i ");
+                // Console.Write("i ");
                 for (int j = rotations; j < size-1; j++)
                 {
                     numbers[j] = numbers[j + 1];
-                    Console.Write("j ");
+                    // Console.Write("j ");
                 }
                 numbers[size - 1] = tmp;
             }
