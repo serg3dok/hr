@@ -13,7 +13,7 @@ class Solution
         for (int i = 0; i < q; i++ )
         {
             String[] numbers = Console.ReadLine().Split(' ');
-            int (Convert.ToInt32(numbers) ==1 )
+            if (Convert.ToInt32(numbers) ==1 )
             {
 
             }
