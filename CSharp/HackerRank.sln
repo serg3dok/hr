@@ -32,6 +32,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fundamentals", "Fundamental
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseGame", "ReverseGame\ReverseGame.csproj", "{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrackingCodingInterview", "CrackingCodingInterview", "{C1158F77-4DBD-4822-AAAF-484F4F693E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayLeftRotation", "ArrayLeftRotation\ArrayLeftRotation.csproj", "{BBB151A6-7C3A-4F9C-9557-3C9F6D77AA77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +74,10 @@ Global
 		{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB151A6-7C3A-4F9C-9557-3C9F6D77AA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB151A6-7C3A-4F9C-9557-3C9F6D77AA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB151A6-7C3A-4F9C-9557-3C9F6D77AA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB151A6-7C3A-4F9C-9557-3C9F6D77AA77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,5 +90,6 @@ Global
 		{EABE1B4E-EEC7-45FD-8574-97E683490C60} = {48C1D926-3790-46FF-88BE-EA70EA375AA4}
 		{7D9BE41F-B6FC-4E47-B356-C8C372849623} = {B3AD1972-E0DC-4A74-A80A-C9CB649AE1F3}
 		{7B20F2C6-CD7D-46F2-B038-679DAE5BE1B4} = {7D9BE41F-B6FC-4E47-B356-C8C372849623}
+		{BBB151A6-7C3A-4F9C-9557-3C9F6D77AA77} = {C1158F77-4DBD-4822-AAAF-484F4F693E54}
 	EndGlobalSection
 EndGlobal
