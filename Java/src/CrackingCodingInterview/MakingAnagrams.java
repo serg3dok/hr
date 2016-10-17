@@ -55,7 +55,7 @@ public class MakingAnagrams {
     public static void main(String[] args) {
 
         String a = "abcfqe";
-        String b = "sfswrh";
+        String b = "sfswarh";
         System.out.println(numberNeeded(a, b));
     }
 
