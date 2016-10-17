@@ -13,6 +13,7 @@ namespace MakingAnagrams2
         cde
         abc
 
+        Convert string to arrays and sort
         sum = a + b = 6
         matches = 1
         result = sum - 1 * 2 = 4
@@ -21,8 +22,12 @@ namespace MakingAnagrams2
 
         static void Main(String[] args)
         {
-            string a = Console.ReadLine();
-            string b = Console.ReadLine();
+            //string a = Console.ReadLine();
+            //string b = Console.ReadLine();
+
+            string a = "fsqoiaidfaukvngpsugszsnseskicpejjvytviya";
+            string b = "ksmfgsxamduovigbasjchnoskolfwjhgetnmnkmcphqmpwnrrwtymjtwxget";
+
             Console.WriteLine(makingAnagrams(a, b));
             Console.ReadKey();
         }
@@ -43,20 +48,21 @@ namespace MakingAnagrams2
 
             while (i < a.Length)
             {
-                if (aChars[i] == bChars[j])
-                {
-                    matches++;
-                    i++;
-                    j++;
-                }
+
                 if (aChars[i] < bChars[j])
                 {
                     i++;
                 }
-                else
+                else if (aChars[i] > bChars[j])
                 {
                     j++;
                 }
+                else {
+                    matches++;
+                    i++;
+                    j++;
+                }
+
                 if (i == a.Length || j == b.Length) break; 
             }
 
