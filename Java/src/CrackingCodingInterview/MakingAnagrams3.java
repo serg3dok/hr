@@ -23,33 +23,32 @@ public class MakingAnagrams3 {
 
 
 
-        char[] aaa = first.toCharArray();
-        char[] bbb = second.toCharArray();
+        char[] a = first.toCharArray();
+        char[] b = second.toCharArray();
 
-        int result = aaa.length + bbb.length;
-        int counter = 0;
+        int sum = a.length + b.length;
+        int match = 0;
 
-        Arrays.sort(aaa);
-        Arrays.sort(bbb);
+        Arrays.sort(a);
+        Arrays.sort(b);
 
-        if (aaa.length >= bbb.length) {
-            int j = 0;
-            for (int i = 0; i < bbb.length; i++) {
-                while (aaa[i] <= bbb[j] && i < bbb.length) {
-                    j++;
-                }
-                if (aaa[i] == bbb[j]) {
-                    counter++;
-                }
+        if (Arrays.equals(a, b)) return 0;
+
+        int i = 0;
+        int j = 0;
+        while (i < a.length) {
+            if (j == b.length) break;
+            if (a[i] < b[j]) i++;
+            else if (b[j] < a[i]) j++;
+            else {
+                match++;
+                i++;
+                j++;
             }
         }
 
-        result = result - counter * 2;
-
-        //int toRemove = a.length() + b.length();
-        return result;
+        return sum  - match * 2;
     }
-
 
     // remove char from string
     public static String removeCharFromString(String str, int index) {
@@ -58,7 +57,6 @@ public class MakingAnagrams3 {
     }
 
     public static void main(String[] args) {
-
         String a = "abcfqe";
         String b = "sfswrh";
         System.out.println(numberNeeded(a, b));
