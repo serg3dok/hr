@@ -9,20 +9,27 @@ public class DetectCycle {
             linkedList.next = new Node(i);
             linkedList = linkedList.next;
         }
-        linkedList.next = head.next.next;
+        //linkedList.next = head.next.next;
 
-        hasCycle(head);
+
+        System.out.println(hasCycle(head));
     }
 
 
     public static boolean hasCycle(Node head) {
+        if (head == null || head.next == null) return false;
+
         Node slow = head;
+        Node slow2 =head;
         Node fast = head.next;
-        while (head != null) {
-            if (slow.data == fast.data) {
-
+        while (fast.next != null) {
+            if (slow == fast) {
+                return true;
             }
-
+            else {
+                slow = slow.next;
+                fast = fast.next.next;
+            }
         }
         return false;
     }
