@@ -51,7 +51,13 @@ public class TaleOfTwoStacks {
 
             if (stackOldestOnTop.isEmpty()) {
                 return stackNewestOnTop.peek();
+            } else {
+                T tmp = stackOldestOnTop.pop();
+
             }
+
+
+
             return stackOldestOnTop.peek();
 
         }
