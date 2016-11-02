@@ -30,44 +30,50 @@ import java.util.Stack;
  2
  2
 
-
-
  */
+
 public class TaleOfTwoStacks {
     public static class MyQueue<T> {
-        Stack<T> stackNewestOnTop = new Stack<T>();
-        Stack<T> stackOldestOnTop = new Stack<T>();
+
+        public Stack<T> stackNewestOnTop = new Stack<T>();
+        public Stack<T> stackOldestOnTop = new Stack<T>();
 
         public void enqueue(T value) { // Push onto newest stack
             //stackOldestOnTop.push(stackNewestOnTop.peek());
+            if (stackNewestOnTop.isEmpty() && !stackOldestOnTop.isEmpty()) {
+                reverseStack();
+            }
             stackNewestOnTop.push(value);
-
-
 
         }
 
         public T peek() {
 
-
-            if (stackOldestOnTop.isEmpty()) {
-                return stackNewestOnTop.peek();
-            } else {
-                T tmp = stackOldestOnTop.pop();
-
+            if (stackOldestOnTop.isEmpty() && !stackNewestOnTop.isEmpty()) {
+                reverseStack();
             }
-
-
-
             return stackOldestOnTop.peek();
-
         }
 
         public T dequeue() {
-            if (!stackNewestOnTop.isEmpty()) {
-                stackOldestOnTop.push(stackNewestOnTop.peek());
+            if (stackOldestOnTop.isEmpty() && !stackNewestOnTop.isEmpty()) {
+                reverseStack();
             }
-
             return stackOldestOnTop.pop();
+        }
+
+        public void reverseStack(){
+            if (stackNewestOnTop.isEmpty() && !stackOldestOnTop.isEmpty()) {
+                while (!stackOldestOnTop.isEmpty()) {
+                    T tmp = stackOldestOnTop.pop();
+                    stackNewestOnTop.push(tmp);
+                }
+            } else {
+                while (!stackNewestOnTop.isEmpty()) {
+                    T tmp = stackNewestOnTop.pop();
+                    stackOldestOnTop.push(tmp);
+                }
+            }
         }
     }
 
