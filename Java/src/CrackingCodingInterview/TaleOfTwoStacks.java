@@ -16,6 +16,7 @@ public class TaleOfTwoStacks {
 
         public void enqueue(T value) { // Push onto newest stack
             stackNewestOnTop.push(value);
+
             stackOldestOnTop.push(value);
         }
 
