@@ -1,13 +1,37 @@
 package CrackingCodingInterview;
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
+import java.util.Stack;
 
 /**
  * Created by Sergey on 10/20/2016.
+ *
+
+ 0  1  2  3  4  5
+ 5  4  3  2  1  0
+
+
+ 42
+ de
+ 14
+ pr
+ 28 14
+
+
+ 10
+ 1 42
+ 2
+ 1 14
+ 3
+ 1 28
+ 3
+ 1 60
+ 1 78
+ 2
+ 2
+
+
+
  */
 public class TaleOfTwoStacks {
     public static class MyQueue<T> {
@@ -15,17 +39,35 @@ public class TaleOfTwoStacks {
         Stack<T> stackOldestOnTop = new Stack<T>();
 
         public void enqueue(T value) { // Push onto newest stack
+            //stackOldestOnTop.push(stackNewestOnTop.peek());
             stackNewestOnTop.push(value);
 
-            stackOldestOnTop.push(value);
+
+
         }
 
         public T peek() {
-            return stackNewestOnTop.peek();
+
+
+            if (stackOldestOnTop.isEmpty()) {
+                return stackNewestOnTop.peek();
+            } else {
+                T tmp = stackOldestOnTop.pop();
+
+            }
+
+
+
+            return stackOldestOnTop.peek();
+
         }
 
         public T dequeue() {
-            return stackNewestOnTop.pop();
+            if (!stackNewestOnTop.isEmpty()) {
+                stackOldestOnTop.push(stackNewestOnTop.peek());
+            }
+
+            return stackOldestOnTop.pop();
         }
     }
 
