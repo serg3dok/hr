@@ -39,12 +39,7 @@ public class TaleOfTwoStacks {
         public Stack<T> stackOldestOnTop = new Stack<T>();
 
         public void enqueue(T value) { // Push onto newest stack
-            //stackOldestOnTop.push(stackNewestOnTop.peek());
-            if (stackNewestOnTop.isEmpty() && !stackOldestOnTop.isEmpty()) {
-                reverseStack();
-            }
             stackNewestOnTop.push(value);
-
         }
 
         public T peek() {
@@ -62,16 +57,12 @@ public class TaleOfTwoStacks {
             return stackOldestOnTop.pop();
         }
 
+
         public void reverseStack(){
-            if (stackNewestOnTop.isEmpty() && !stackOldestOnTop.isEmpty()) {
-                while (!stackOldestOnTop.isEmpty()) {
-                    T tmp = stackOldestOnTop.pop();
-                    stackNewestOnTop.push(tmp);
-                }
-            } else {
+            if (!stackNewestOnTop.isEmpty() && stackOldestOnTop.isEmpty()) {
                 while (!stackNewestOnTop.isEmpty()) {
-                    T tmp = stackNewestOnTop.pop();
-                    stackOldestOnTop.push(tmp);
+                    //T tmp = stackNewestOnTop.pop();
+                    stackOldestOnTop.push(stackNewestOnTop.pop());
                 }
             }
         }
